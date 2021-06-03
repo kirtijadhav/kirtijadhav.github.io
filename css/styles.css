@@ -53,6 +53,27 @@ a:hover{
     color: #EAF6F6;
 }
 
+.header{
+    background-color: #f7fcfb;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+}
+
+.header a{
+    float: right;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header a:hover{
+    background-color: #f7fcfb;
+    color: #40514E;
+}
+
 .top-container{
     background-color: #f7fcfb;
     position: relative;
@@ -145,6 +166,17 @@ a:hover{
     height: auto;
 }
 
+.butterfly-img{
+    float: center;
+    width: 10%;
+    height: auto;
+    position: absolute;
+}
+
+.contact-message{
+    margin: 20px auto 50px;
+}
+
 .btn{
     background: #66bfbf7c;
     background-image: -webkit-linear-gradient(top, #30E3CB, #2bc4ad65);
@@ -160,8 +192,9 @@ a:hover{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin: 100px auto;
+    margin: 150px auto;
     font-style: normal;
+    float: center;
 }
  
 .btn:hover {
