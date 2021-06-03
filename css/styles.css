@@ -86,7 +86,7 @@ a:hover{
 }
 
 .bottom-container{
-    background-color: #66bfbf7c;
+    background-color: #b0dfdf7c;
     padding: 50px 0 20px;
 }
 
@@ -136,13 +136,14 @@ a:hover{
     position: relative;
     width: 100%;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .code-img{
     width: 25%;
     float: left;
     margin-right: 30px;
+    background: #b5e6e6;
 }
 
 .skillset-img{
